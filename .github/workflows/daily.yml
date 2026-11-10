@@ -1,0 +1,65 @@
+name: V3 双策略盘后扫描
+on:
+  schedule:
+    - cron: '10 9 * * MON-FRI'
+    - cron: '40 9 * * MON-FRI'
+  workflow_dispatch:
+    inputs:
+      date:
+        description: '指定补扫日期 YYYY-MM-DD，留空扫描今天'
+        type: string
+        required: false
+  push:
+    branches: [main]
+    paths: ['.github/workflows/daily.yml']
+
+permissions:
+  contents: write
+concurrency:
+  group: dongliang-reports
+  cancel-in-progress: false
+
+jobs:
+  scan:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - uses: actions/cache@v4
+        with:
+          path: data/prices
+          key: tdx-${{ github.run_id }}
+          restore-keys: tdx-
+      - run: pip install -r requirements.txt
+      - name: Scan frozen pool
+        env:
+          INPUT_DATE: ${{ inputs.date }}
+          EVENT_NAME: ${{ github.event_name }}
+        run: |
+          case "$EVENT_NAME" in
+            push) python scan.py --date 2026-11-09 --skip-existing ;;
+            schedule) python scan.py --skip-existing ;;
+            *)
+              if [ -n "$INPUT_DATE" ]; then
+                python scan.py --date "$INPUT_DATE"
+              else
+                python scan.py
+              fi
+              ;;
+          esac
+      - name: Publish reports
+        run: |
+          if [ ! -d reports ]; then exit 0; fi
+          git add reports
+          if git diff --cached --quiet; then exit 0; fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m "Publish V3 daily signals"
+          git pull --rebase origin main
+          git push origin HEAD:main
