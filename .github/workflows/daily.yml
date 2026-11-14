@@ -42,17 +42,16 @@ jobs:
           INPUT_DATE: ${{ inputs.date }}
           EVENT_NAME: ${{ github.event_name }}
         run: |
-          case "$EVENT_NAME" in
-            push) python scan.py --date 2026-11-09 --skip-existing ;;
-            schedule) python scan.py --skip-existing ;;
-            *)
-              if [ -n "$INPUT_DATE" ]; then
-                python scan.py --date "$INPUT_DATE"
-              else
-                python scan.py
-              fi
-              ;;
-          esac
+          if [[ -n "$INPUT_DATE" ]]; then
+            python scan.py --date "$INPUT_DATE"
+          else
+            report_day=$(python -c 'from datetime import datetime, timedelta; from zoneinfo import ZoneInfo; from exchange_calendars import get_calendar; now = datetime.now(ZoneInfo("Asia/Shanghai")); cutoff = now.date() - timedelta(days=int(now.hour < 15)); print(get_calendar("XSHG").date_to_session(cutoff.isoformat(), direction="previous").date())')
+            if [[ "$EVENT_NAME" == workflow_dispatch ]]; then
+              python scan.py --date "$report_day"
+            else
+              python scan.py --date "$report_day" --skip-existing
+            fi
+          fi
       - name: Publish reports
         run: |
           if [ ! -d reports ]; then exit 0; fi
