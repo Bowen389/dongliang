@@ -1,0 +1,1018 @@
+{
+  "date": "2026-11-16",
+  "universe_size": 969,
+  "coverage": {
+    "scanned": 960,
+    "excluded": 0,
+    "inactive_or_missing_today": 0,
+    "missing_history": 9
+  },
+  "market_gate": {
+    "source": "Sina CSI300 daily",
+    "close": 3979.804,
+    "ma20": 4059.7866999999997,
+    "allow": false
+  },
+  "strategies": {
+    "champion": {
+      "technical_candidates": [
+        {
+          "code": "000156",
+          "name": "华数传媒",
+          "gain": 0.10051546391752564,
+          "volume_ratio_5": 3.1217816391888418,
+          "volume_ratio_60": 5.03058196516073,
+          "amount_cny": 821966353.78,
+          "close": 8.54,
+          "breakout": true,
+          "strength": 3,
+          "conditions": [
+            true,
+            true,
+            true
+          ]
+        },
+        {
+          "code": "600715",
+          "name": "文投控股",
+          "gain": 0.10000000000000009,
+          "volume_ratio_5": 2.004165060526252,
+          "volume_ratio_60": 6.132545902178314,
+          "amount_cny": 3957287488.0,
+          "close": 3.74,
+          "breakout": true,
+          "strength": 3,
+          "conditions": [
+            true,
+            true,
+            true
+          ]
+        },
+        {
+          "code": "000819",
+          "name": "岳阳兴长",
+          "gain": 0.0998439937597504,
+          "volume_ratio_5": 3.9006505691794082,
+          "volume_ratio_60": 9.824587339315995,
+          "amount_cny": 819767343.22,
+          "close": 14.1,
+          "breakout": true,
+          "strength": 3,
+          "conditions": [
+            true,
+            true,
+            true
+          ]
+        },
+        {
+          "code": "603103",
+          "name": "横店影视",
+          "gain": 0.08751941998964274,
+          "volume_ratio_5": 3.9253765852069593,
+          "volume_ratio_60": 5.452618559932199,
+          "amount_cny": 899376003.0,
+          "close": 21.0,
+          "breakout": true,
+          "strength": 3,
+          "conditions": [
+            true,
+            true,
+            true
+          ]
+        },
+        {
+          "code": "000400",
+          "name": "许继电气",
+          "gain": 0.06941608819926515,
+          "volume_ratio_5": 3.3989018352954012,
+          "volume_ratio_60": 3.4946105489475077,
+          "amount_cny": 1490450795.62,
+          "close": 26.19,
+          "breakout": true,
+          "strength": 3,
+          "conditions": [
+            true,
+            true,
+            true
+          ]
+        },
+        {
+          "code": "000860",
+          "name": "顺鑫农业",
+          "gain": 0.06098579782790292,
+          "volume_ratio_5": 2.4090580759828635,
+          "volume_ratio_60": 3.0058157451821352,
+          "amount_cny": 541463903.51,
+          "close": 12.7,
+          "breakout": true,
+          "strength": 3,
+          "conditions": [
+            true,
+            true,
+            true
+          ]
+        },
+        {
+          "code": "600312",
+          "name": "平高电气",
+          "gain": 0.05686746987951796,
+          "volume_ratio_5": 2.704775614784081,
+          "volume_ratio_60": 2.135751385157123,
+          "amount_cny": 890863038.0,
+          "close": 21.93,
+          "breakout": true,
+          "strength": 3,
+          "conditions": [
+            true,
+            true,
+            true
+          ]
+        },
+        {
+          "code": "605338",
+          "name": "巴比食品",
+          "gain": 0.0563115908024403,
+          "volume_ratio_5": 2.1231872237685905,
+          "volume_ratio_60": 4.008974095263556,
+          "amount_cny": 326083472.0,
+          "close": 22.51,
+          "breakout": true,
+          "strength": 3,
+          "conditions": [
+            true,
+            true,
+            true
+          ]
+        }
+      ],
+      "next_open_watchlist": [],
+      "opening_gap_range": [
+        -0.04,
+        0.05
+      ],
+      "max_positions": 5,
+      "exit_sessions_after_entry": 2,
+      "exit_basis": "close"
+    },
+    "optimized_a": {
+      "technical_candidates": [
+        {
+          "code": "000156",
+          "name": "华数传媒",
+          "gain": 0.10051546391752564,
+          "volume_ratio_5": 3.1217816391888418,
+          "volume_ratio_60": 5.03058196516073,
+          "amount_cny": 821966353.78,
+          "close": 8.54,
+          "breakout": true,
+          "strength": 3,
+          "conditions": [
+            true,
+            true,
+            true
+          ]
+        },
+        {
+          "code": "600715",
+          "name": "文投控股",
+          "gain": 0.10000000000000009,
+          "volume_ratio_5": 2.004165060526252,
+          "volume_ratio_60": 6.132545902178314,
+          "amount_cny": 3957287488.0,
+          "close": 3.74,
+          "breakout": true,
+          "strength": 3,
+          "conditions": [
+            true,
+            true,
+            true
+          ]
+        },
+        {
+          "code": "000819",
+          "name": "岳阳兴长",
+          "gain": 0.0998439937597504,
+          "volume_ratio_5": 3.9006505691794082,
+          "volume_ratio_60": 9.824587339315995,
+          "amount_cny": 819767343.22,
+          "close": 14.1,
+          "breakout": true,
+          "strength": 3,
+          "conditions": [
+            true,
+            true,
+            true
+          ]
+        },
+        {
+          "code": "603103",
+          "name": "横店影视",
+          "gain": 0.08751941998964274,
+          "volume_ratio_5": 3.9253765852069593,
+          "volume_ratio_60": 5.452618559932199,
+          "amount_cny": 899376003.0,
+          "close": 21.0,
+          "breakout": true,
+          "strength": 3,
+          "conditions": [
+            true,
+            true,
+            true
+          ]
+        },
+        {
+          "code": "000400",
+          "name": "许继电气",
+          "gain": 0.06941608819926515,
+          "volume_ratio_5": 3.3989018352954012,
+          "volume_ratio_60": 3.4946105489475077,
+          "amount_cny": 1490450795.62,
+          "close": 26.19,
+          "breakout": true,
+          "strength": 3,
+          "conditions": [
+            true,
+            true,
+            true
+          ]
+        },
+        {
+          "code": "000860",
+          "name": "顺鑫农业",
+          "gain": 0.06098579782790292,
+          "volume_ratio_5": 2.4090580759828635,
+          "volume_ratio_60": 3.0058157451821352,
+          "amount_cny": 541463903.51,
+          "close": 12.7,
+          "breakout": true,
+          "strength": 3,
+          "conditions": [
+            true,
+            true,
+            true
+          ]
+        },
+        {
+          "code": "600312",
+          "name": "平高电气",
+          "gain": 0.05686746987951796,
+          "volume_ratio_5": 2.704775614784081,
+          "volume_ratio_60": 2.135751385157123,
+          "amount_cny": 890863038.0,
+          "close": 21.93,
+          "breakout": true,
+          "strength": 3,
+          "conditions": [
+            true,
+            true,
+            true
+          ]
+        },
+        {
+          "code": "605338",
+          "name": "巴比食品",
+          "gain": 0.0563115908024403,
+          "volume_ratio_5": 2.1231872237685905,
+          "volume_ratio_60": 4.008974095263556,
+          "amount_cny": 326083472.0,
+          "close": 22.51,
+          "breakout": true,
+          "strength": 3,
+          "conditions": [
+            true,
+            true,
+            true
+          ]
+        },
+        {
+          "code": "002003",
+          "name": "伟星股份",
+          "gain": 0.04133545310015885,
+          "volume_ratio_5": 2.528201359822301,
+          "volume_ratio_60": 1.8464580324392097,
+          "amount_cny": 349909960.74,
+          "close": 13.1,
+          "breakout": true,
+          "strength": 3,
+          "conditions": [
+            true,
+            true,
+            true
+          ]
+        },
+        {
+          "code": "600406",
+          "name": "国电南瑞",
+          "gain": 0.039982803095442776,
+          "volume_ratio_5": 3.3765261566360634,
+          "volume_ratio_60": 2.877769231524857,
+          "amount_cny": 2709888045.0,
+          "close": 24.19,
+          "breakout": true,
+          "strength": 3,
+          "conditions": [
+            true,
+            true,
+            true
+          ]
+        },
+        {
+          "code": "002425",
+          "name": "凯撒文化",
+          "gain": 0.101010101010101,
+          "volume_ratio_5": 1.499924532761255,
+          "volume_ratio_60": 2.958756495071104,
+          "amount_cny": 804825457.22,
+          "close": 4.36,
+          "breakout": true,
+          "strength": 2,
+          "conditions": [
+            false,
+            true,
+            true
+          ]
+        },
+        {
+          "code": "002187",
+          "name": "广百股份",
+          "gain": 0.10043041606886649,
+          "volume_ratio_5": 0.9197016313734127,
+          "volume_ratio_60": 1.9826017650385652,
+          "amount_cny": 328578042.17,
+          "close": 7.67,
+          "breakout": true,
+          "strength": 2,
+          "conditions": [
+            false,
+            true,
+            true
+          ]
+        },
+        {
+          "code": "601929",
+          "name": "吉视传媒",
+          "gain": 0.1003717472118959,
+          "volume_ratio_5": 1.1138899750597613,
+          "volume_ratio_60": 2.708004955868031,
+          "amount_cny": 1479940805.0,
+          "close": 2.96,
+          "breakout": true,
+          "strength": 2,
+          "conditions": [
+            false,
+            true,
+            true
+          ]
+        },
+        {
+          "code": "601188",
+          "name": "龙江交通",
+          "gain": 0.10000000000000009,
+          "volume_ratio_5": 0.7243042799744914,
+          "volume_ratio_60": 2.6171543042719674,
+          "amount_cny": 1012325454.0,
+          "close": 4.73,
+          "breakout": true,
+          "strength": 2,
+          "conditions": [
+            false,
+            true,
+            true
+          ]
+        },
+        {
+          "code": "002242",
+          "name": "九阳股份",
+          "gain": 0.07102803738317753,
+          "volume_ratio_5": 1.9041957138809102,
+          "volume_ratio_60": 2.5727879419213857,
+          "amount_cny": 4046625687.91,
+          "close": 28.65,
+          "breakout": true,
+          "strength": 2,
+          "conditions": [
+            false,
+            true,
+            true
+          ]
+        },
+        {
+          "code": "002966",
+          "name": "苏州银行",
+          "gain": 0.04049844236760114,
+          "volume_ratio_5": 1.7688085318456308,
+          "volume_ratio_60": 1.5169761643606279,
+          "amount_cny": 577467796.03,
+          "close": 10.02,
+          "breakout": true,
+          "strength": 2,
+          "conditions": [
+            false,
+            true,
+            true
+          ]
+        },
+        {
+          "code": "601717",
+          "name": "中创智领",
+          "gain": 0.034143138542350515,
+          "volume_ratio_5": 1.8968470157719277,
+          "volume_ratio_60": 1.5872264114247825,
+          "amount_cny": 444475186.0,
+          "close": 15.75,
+          "breakout": true,
+          "strength": 2,
+          "conditions": [
+            false,
+            true,
+            true
+          ]
+        },
+        {
+          "code": "000895",
+          "name": "双汇发展",
+          "gain": 0.029995946493716952,
+          "volume_ratio_5": 1.7030484252968865,
+          "volume_ratio_60": 1.6782590988197783,
+          "amount_cny": 457547835.75,
+          "close": 25.41,
+          "breakout": true,
+          "strength": 2,
+          "conditions": [
+            false,
+            true,
+            true
+          ]
+        },
+        {
+          "code": "600941",
+          "name": "中国移动",
+          "gain": 0.02986398580721472,
+          "volume_ratio_5": 1.4763895097429844,
+          "volume_ratio_60": 1.8927078520179865,
+          "amount_cny": 2151911183.0,
+          "close": 104.49,
+          "breakout": true,
+          "strength": 2,
+          "conditions": [
+            false,
+            true,
+            true
+          ]
+        },
+        {
+          "code": "601766",
+          "name": "中国中车",
+          "gain": 0.026438569206842955,
+          "volume_ratio_5": 1.7608208338669034,
+          "volume_ratio_60": 1.5132910213207549,
+          "amount_cny": 1423609018.0,
+          "close": 6.6,
+          "breakout": true,
+          "strength": 2,
+          "conditions": [
+            false,
+            true,
+            true
+          ]
+        },
+        {
+          "code": "601169",
+          "name": "北京银行",
+          "gain": 0.025974025974025983,
+          "volume_ratio_5": 1.5245598227026451,
+          "volume_ratio_60": 1.6898338458271442,
+          "amount_cny": 1989650209.0,
+          "close": 6.32,
+          "breakout": true,
+          "strength": 2,
+          "conditions": [
+            false,
+            true,
+            true
+          ]
+        },
+        {
+          "code": "002948",
+          "name": "青岛银行",
+          "gain": 0.024502297090352343,
+          "volume_ratio_5": 1.6610451931082062,
+          "volume_ratio_60": 1.5063429592976156,
+          "amount_cny": 420224984.12,
+          "close": 6.69,
+          "breakout": true,
+          "strength": 2,
+          "conditions": [
+            false,
+            true,
+            true
+          ]
+        },
+        {
+          "code": "000333",
+          "name": "美的集团",
+          "gain": 0.02352291551628949,
+          "volume_ratio_5": 1.678531189280697,
+          "volume_ratio_60": 1.5305322312539855,
+          "amount_cny": 3741613648.21,
+          "close": 92.68,
+          "breakout": true,
+          "strength": 2,
+          "conditions": [
+            false,
+            true,
+            true
+          ]
+        },
+        {
+          "code": "000001",
+          "name": "平安银行",
+          "gain": 0.0190555095277547,
+          "volume_ratio_5": 1.7286298296003555,
+          "volume_ratio_60": 1.9277709485743977,
+          "amount_cny": 2645742573.89,
+          "close": 12.3,
+          "breakout": true,
+          "strength": 2,
+          "conditions": [
+            false,
+            true,
+            true
+          ]
+        },
+        {
+          "code": "002739",
+          "name": "儒意电影",
+          "gain": 0.01492537313432818,
+          "volume_ratio_5": 3.305798846542322,
+          "volume_ratio_60": 4.122274216667266,
+          "amount_cny": 2416150023.13,
+          "close": 10.2,
+          "breakout": true,
+          "strength": 2,
+          "conditions": [
+            false,
+            true,
+            true
+          ]
+        },
+        {
+          "code": "000596",
+          "name": "古井贡酒",
+          "gain": 0.0063392857142856585,
+          "volume_ratio_5": 1.5648710519887226,
+          "volume_ratio_60": 2.097199725840812,
+          "amount_cny": 1080916768.88,
+          "close": 112.71,
+          "breakout": true,
+          "strength": 2,
+          "conditions": [
+            false,
+            true,
+            true
+          ]
+        },
+        {
+          "code": "603118",
+          "name": "共进股份",
+          "gain": 0.10022438294689606,
+          "volume_ratio_5": 2.7828726351254427,
+          "volume_ratio_60": 2.0290658809487008,
+          "amount_cny": 2150374878.0,
+          "close": 14.71,
+          "breakout": false,
+          "strength": 1,
+          "conditions": [
+            true,
+            false,
+            false
+          ]
+        },
+        {
+          "code": "600499",
+          "name": "科达制造",
+          "gain": 0.07719609582963627,
+          "volume_ratio_5": 2.9484146156949205,
+          "volume_ratio_60": 2.1124810630963737,
+          "amount_cny": 691967066.0,
+          "close": 12.14,
+          "breakout": false,
+          "strength": 1,
+          "conditions": [
+            true,
+            false,
+            false
+          ]
+        },
+        {
+          "code": "603358",
+          "name": "华达科技",
+          "gain": 0.06693849813115871,
+          "volume_ratio_5": 3.404991616514239,
+          "volume_ratio_60": 2.5318312429889582,
+          "amount_cny": 697787477.0,
+          "close": 31.4,
+          "breakout": false,
+          "strength": 1,
+          "conditions": [
+            true,
+            false,
+            false
+          ]
+        },
+        {
+          "code": "603368",
+          "name": "柳药集团",
+          "gain": 0.06511056511056501,
+          "volume_ratio_5": 2.6997172279985033,
+          "volume_ratio_60": 2.688562581191967,
+          "amount_cny": 318016186.0,
+          "close": 17.34,
+          "breakout": false,
+          "strength": 1,
+          "conditions": [
+            true,
+            false,
+            false
+          ]
+        },
+        {
+          "code": "000661",
+          "name": "长春高新",
+          "gain": 0.042163543441226636,
+          "volume_ratio_5": 2.481589219827817,
+          "volume_ratio_60": 1.7431297741809737,
+          "amount_cny": 673736965.04,
+          "close": 73.41,
+          "breakout": false,
+          "strength": 1,
+          "conditions": [
+            true,
+            false,
+            false
+          ]
+        },
+        {
+          "code": "600000",
+          "name": "浦发银行",
+          "gain": 0.03653846153846141,
+          "volume_ratio_5": 1.7549257932525442,
+          "volume_ratio_60": 1.331914313344402,
+          "amount_cny": 1027916512.0,
+          "close": 10.78,
+          "breakout": true,
+          "strength": 1,
+          "conditions": [
+            false,
+            false,
+            true
+          ]
+        },
+        {
+          "code": "601816",
+          "name": "京沪高铁",
+          "gain": 0.03428571428571425,
+          "volume_ratio_5": 1.69864469602647,
+          "volume_ratio_60": 1.3765948537846173,
+          "amount_cny": 1062497730.0,
+          "close": 5.43,
+          "breakout": true,
+          "strength": 1,
+          "conditions": [
+            false,
+            false,
+            true
+          ]
+        },
+        {
+          "code": "601288",
+          "name": "农业银行",
+          "gain": 0.02985074626865658,
+          "volume_ratio_5": 1.5532780051335018,
+          "volume_ratio_60": 1.4065907988987283,
+          "amount_cny": 3647652764.0,
+          "close": 7.59,
+          "breakout": true,
+          "strength": 1,
+          "conditions": [
+            false,
+            false,
+            true
+          ]
+        },
+        {
+          "code": "600566",
+          "name": "济川药业",
+          "gain": 0.02933333333333321,
+          "volume_ratio_5": 1.2196008355135328,
+          "volume_ratio_60": 1.497557464740269,
+          "amount_cny": 314254224.0,
+          "close": 30.88,
+          "breakout": true,
+          "strength": 1,
+          "conditions": [
+            false,
+            false,
+            true
+          ]
+        },
+        {
+          "code": "600535",
+          "name": "天士力",
+          "gain": 0.029327610872675214,
+          "volume_ratio_5": 2.21581449526704,
+          "volume_ratio_60": 1.7064471653203903,
+          "amount_cny": 314316612.0,
+          "close": 14.39,
+          "breakout": false,
+          "strength": 1,
+          "conditions": [
+            true,
+            false,
+            false
+          ]
+        },
+        {
+          "code": "600674",
+          "name": "川投能源",
+          "gain": 0.02748177229388693,
+          "volume_ratio_5": 1.7713477488237264,
+          "volume_ratio_60": 1.4796104841317632,
+          "amount_cny": 787352180.0,
+          "close": 18.32,
+          "breakout": true,
+          "strength": 1,
+          "conditions": [
+            false,
+            false,
+            true
+          ]
+        },
+        {
+          "code": "002027",
+          "name": "分众传媒",
+          "gain": 0.027322404371584508,
+          "volume_ratio_5": 1.1020369027775176,
+          "volume_ratio_60": 1.331006949962766,
+          "amount_cny": 1290348398.01,
+          "close": 5.64,
+          "breakout": true,
+          "strength": 1,
+          "conditions": [
+            false,
+            false,
+            true
+          ]
+        },
+        {
+          "code": "600016",
+          "name": "民生银行",
+          "gain": 0.02631578947368407,
+          "volume_ratio_5": 2.2777788254309006,
+          "volume_ratio_60": 1.8666877259444357,
+          "amount_cny": 1608494159.0,
+          "close": 3.51,
+          "breakout": false,
+          "strength": 1,
+          "conditions": [
+            true,
+            false,
+            false
+          ]
+        },
+        {
+          "code": "000423",
+          "name": "东阿阿胶",
+          "gain": 0.025569871159563995,
+          "volume_ratio_5": 1.2724443553372509,
+          "volume_ratio_60": 1.4351630318918946,
+          "amount_cny": 436980221.29,
+          "close": 51.74,
+          "breakout": true,
+          "strength": 1,
+          "conditions": [
+            false,
+            false,
+            true
+          ]
+        },
+        {
+          "code": "002415",
+          "name": "海康威视",
+          "gain": 0.02467343976777925,
+          "volume_ratio_5": 2.067185098877499,
+          "volume_ratio_60": 1.687981446735762,
+          "amount_cny": 3180037605.77,
+          "close": 35.3,
+          "breakout": false,
+          "strength": 1,
+          "conditions": [
+            true,
+            false,
+            false
+          ]
+        },
+        {
+          "code": "600177",
+          "name": "雅戈尔",
+          "gain": 0.023809523809523725,
+          "volume_ratio_5": 1.5124394588324173,
+          "volume_ratio_60": 1.4119066829690152,
+          "amount_cny": 326850303.0,
+          "close": 8.6,
+          "breakout": true,
+          "strength": 1,
+          "conditions": [
+            false,
+            false,
+            true
+          ]
+        },
+        {
+          "code": "600900",
+          "name": "长江电力",
+          "gain": 0.019391507856904022,
+          "volume_ratio_5": 1.981977021974343,
+          "volume_ratio_60": 1.4913272938258013,
+          "amount_cny": 4584143175.0,
+          "close": 30.49,
+          "breakout": true,
+          "strength": 1,
+          "conditions": [
+            false,
+            false,
+            true
+          ]
+        },
+        {
+          "code": "600919",
+          "name": "江苏银行",
+          "gain": 0.016628873771730834,
+          "volume_ratio_5": 1.427103257437229,
+          "volume_ratio_60": 1.376745097434998,
+          "amount_cny": 1819493700.0,
+          "close": 13.45,
+          "breakout": true,
+          "strength": 1,
+          "conditions": [
+            false,
+            false,
+            true
+          ]
+        },
+        {
+          "code": "601818",
+          "name": "光大银行",
+          "gain": 0.01552795031055898,
+          "volume_ratio_5": 1.493439771020607,
+          "volume_ratio_60": 1.48675072210159,
+          "amount_cny": 990251833.0,
+          "close": 3.27,
+          "breakout": true,
+          "strength": 1,
+          "conditions": [
+            false,
+            false,
+            true
+          ]
+        },
+        {
+          "code": "601916",
+          "name": "浙商银行",
+          "gain": 0.013513513513513598,
+          "volume_ratio_5": 0.9802464703103878,
+          "volume_ratio_60": 1.2214795593617918,
+          "amount_cny": 554182672.0,
+          "close": 3.0,
+          "breakout": true,
+          "strength": 1,
+          "conditions": [
+            false,
+            false,
+            true
+          ]
+        },
+        {
+          "code": "000538",
+          "name": "云南白药",
+          "gain": 0.012676566461427008,
+          "volume_ratio_5": 1.5758192056012899,
+          "volume_ratio_60": 1.4415400620237917,
+          "amount_cny": 703359704.37,
+          "close": 55.92,
+          "breakout": true,
+          "strength": 1,
+          "conditions": [
+            false,
+            false,
+            true
+          ]
+        },
+        {
+          "code": "601838",
+          "name": "成都银行",
+          "gain": 0.012596899224806002,
+          "volume_ratio_5": 1.3182256235379726,
+          "volume_ratio_60": 1.2656315941030711,
+          "amount_cny": 601974948.0,
+          "close": 20.9,
+          "breakout": true,
+          "strength": 1,
+          "conditions": [
+            false,
+            false,
+            true
+          ]
+        },
+        {
+          "code": "601939",
+          "name": "建设银行",
+          "gain": 0.012386457473162693,
+          "volume_ratio_5": 1.3785216592430243,
+          "volume_ratio_60": 1.341264325047041,
+          "amount_cny": 1896131163.0,
+          "close": 12.26,
+          "breakout": true,
+          "strength": 1,
+          "conditions": [
+            false,
+            false,
+            true
+          ]
+        },
+        {
+          "code": "002714",
+          "name": "牧原股份",
+          "gain": 0.010034904013961565,
+          "volume_ratio_5": 1.437884500518941,
+          "volume_ratio_60": 1.3149728907742677,
+          "amount_cny": 2439503384.53,
+          "close": 46.3,
+          "breakout": true,
+          "strength": 1,
+          "conditions": [
+            false,
+            false,
+            true
+          ]
+        },
+        {
+          "code": "601128",
+          "name": "常熟银行",
+          "gain": 0.006259780907668322,
+          "volume_ratio_5": 1.087502953218582,
+          "volume_ratio_60": 1.451617527437838,
+          "amount_cny": 520277158.0,
+          "close": 6.43,
+          "breakout": true,
+          "strength": 1,
+          "conditions": [
+            false,
+            false,
+            true
+          ]
+        },
+        {
+          "code": "600901",
+          "name": "江苏金租",
+          "gain": 0.0012853470437017567,
+          "volume_ratio_5": 1.6481483871245264,
+          "volume_ratio_60": 1.413518085984805,
+          "amount_cny": 345038354.0,
+          "close": 7.79,
+          "breakout": true,
+          "strength": 1,
+          "conditions": [
+            false,
+            false,
+            true
+          ]
+        },
+        {
+          "code": "002100",
+          "name": "天康生物",
+          "gain": 0.0011641443538998875,
+          "volume_ratio_5": 1.1665730753256345,
+          "volume_ratio_60": 1.3866395487680319,
+          "amount_cny": 311780038.95,
+          "close": 8.6,
+          "breakout": true,
+          "strength": 1,
+          "conditions": [
+            false,
+            false,
+            true
+          ]
+        }
+      ],
+      "next_open_watchlist": [],
+      "opening_gap_range": [
+        -0.03,
+        0.05
+      ],
+      "max_positions": 3,
+      "exit_sessions_after_entry": 2,
+      "exit_basis": "open"
+    }
+  }
+}
