@@ -1,0 +1,377 @@
+{
+  "date": "2026-11-18",
+  "universe_size": 969,
+  "coverage": {
+    "scanned": 960,
+    "excluded": 0,
+    "inactive_or_missing_today": 0,
+    "missing_history": 9
+  },
+  "market_gate": {
+    "source": "Sina CSI300 daily",
+    "close": 3983.767,
+    "ma20": 4044.5961500000003,
+    "allow": false
+  },
+  "strategies": {
+    "champion": {
+      "technical_candidates": [],
+      "next_open_watchlist": [],
+      "opening_gap_range": [
+        -0.04,
+        0.05
+      ],
+      "max_positions": 5,
+      "exit_sessions_after_entry": 2,
+      "exit_basis": "close"
+    },
+    "optimized_a": {
+      "technical_candidates": [
+        {
+          "code": "002557",
+          "name": "洽洽食品",
+          "gain": 0.0335305719921104,
+          "volume_ratio_5": 2.1328714387782965,
+          "volume_ratio_60": 2.724411821542556,
+          "amount_cny": 393121723.25,
+          "close": 20.96,
+          "breakout": true,
+          "strength": 3,
+          "conditions": [
+            true,
+            true,
+            true
+          ]
+        },
+        {
+          "code": "601188",
+          "name": "龙江交通",
+          "gain": 0.07172995780590719,
+          "volume_ratio_5": 1.3125452988019195,
+          "volume_ratio_60": 4.418183104514442,
+          "amount_cny": 2088045133.0,
+          "close": 5.08,
+          "breakout": true,
+          "strength": 2,
+          "conditions": [
+            false,
+            true,
+            true
+          ]
+        },
+        {
+          "code": "000530",
+          "name": "冰山冷热",
+          "gain": 0.04725738396624468,
+          "volume_ratio_5": 1.2375591110725248,
+          "volume_ratio_60": 2.8158420925502443,
+          "amount_cny": 3461003064.42,
+          "close": 12.41,
+          "breakout": true,
+          "strength": 2,
+          "conditions": [
+            false,
+            true,
+            true
+          ]
+        },
+        {
+          "code": "600690",
+          "name": "海尔智家",
+          "gain": 0.013452914798206317,
+          "volume_ratio_5": 1.6617023731276224,
+          "volume_ratio_60": 2.198239760617887,
+          "amount_cny": 1893454274.0,
+          "close": 22.6,
+          "breakout": true,
+          "strength": 2,
+          "conditions": [
+            false,
+            true,
+            true
+          ]
+        },
+        {
+          "code": "600406",
+          "name": "国电南瑞",
+          "gain": 0.004081632653061273,
+          "volume_ratio_5": 1.0943894087011912,
+          "volume_ratio_60": 1.6936005837993546,
+          "amount_cny": 1716140024.0,
+          "close": 24.6,
+          "breakout": true,
+          "strength": 2,
+          "conditions": [
+            false,
+            true,
+            true
+          ]
+        },
+        {
+          "code": "600186",
+          "name": "莲花控股",
+          "gain": 0.10049019607843146,
+          "volume_ratio_5": 2.1064409231579617,
+          "volume_ratio_60": 1.114762461494464,
+          "amount_cny": 1696162775.0,
+          "close": 8.98,
+          "breakout": false,
+          "strength": 1,
+          "conditions": [
+            true,
+            false,
+            false
+          ]
+        },
+        {
+          "code": "000158",
+          "name": "常山北明",
+          "gain": 0.09999999999999987,
+          "volume_ratio_5": 2.902562685082416,
+          "volume_ratio_60": 2.5321402083235105,
+          "amount_cny": 919356471.67,
+          "close": 12.43,
+          "breakout": false,
+          "strength": 1,
+          "conditions": [
+            true,
+            false,
+            false
+          ]
+        },
+        {
+          "code": "000815",
+          "name": "美利云",
+          "gain": 0.099923136049193,
+          "volume_ratio_5": 2.4692323274046823,
+          "volume_ratio_60": 1.6567608712912145,
+          "amount_cny": 1023883311.56,
+          "close": 14.31,
+          "breakout": false,
+          "strength": 1,
+          "conditions": [
+            true,
+            false,
+            false
+          ]
+        },
+        {
+          "code": "603887",
+          "name": "城地香江",
+          "gain": 0.09946236559139776,
+          "volume_ratio_5": 2.245532837210541,
+          "volume_ratio_60": 1.9789799972122906,
+          "amount_cny": 381726887.0,
+          "close": 8.18,
+          "breakout": false,
+          "strength": 1,
+          "conditions": [
+            true,
+            false,
+            false
+          ]
+        },
+        {
+          "code": "603358",
+          "name": "华达科技",
+          "gain": 0.08280254777070062,
+          "volume_ratio_5": 3.1750586410693846,
+          "volume_ratio_60": 3.9755221517243267,
+          "amount_cny": 1012565305.0,
+          "close": 30.6,
+          "breakout": false,
+          "strength": 1,
+          "conditions": [
+            true,
+            false,
+            false
+          ]
+        },
+        {
+          "code": "002261",
+          "name": "拓维信息",
+          "gain": 0.0714285714285714,
+          "volume_ratio_5": 2.414467142841851,
+          "volume_ratio_60": 4.362084947848334,
+          "amount_cny": 3331312588.61,
+          "close": 24.6,
+          "breakout": false,
+          "strength": 1,
+          "conditions": [
+            true,
+            false,
+            false
+          ]
+        },
+        {
+          "code": "000656",
+          "name": "金科股份",
+          "gain": 0.06896551724137945,
+          "volume_ratio_5": 2.3059503029590807,
+          "volume_ratio_60": 3.6144541989850247,
+          "amount_cny": 593528584.92,
+          "close": 0.93,
+          "breakout": false,
+          "strength": 1,
+          "conditions": [
+            true,
+            false,
+            false
+          ]
+        },
+        {
+          "code": "002526",
+          "name": "山东矿机",
+          "gain": 0.06028368794326244,
+          "volume_ratio_5": 3.237239963994634,
+          "volume_ratio_60": 5.0864926344237364,
+          "amount_cny": 627103968.69,
+          "close": 2.99,
+          "breakout": false,
+          "strength": 1,
+          "conditions": [
+            true,
+            false,
+            false
+          ]
+        },
+        {
+          "code": "000536",
+          "name": "华映科技",
+          "gain": 0.05211726384364823,
+          "volume_ratio_5": 2.36701569853351,
+          "volume_ratio_60": 1.8629444169974945,
+          "amount_cny": 322454660.26,
+          "close": 3.23,
+          "breakout": false,
+          "strength": 1,
+          "conditions": [
+            true,
+            false,
+            false
+          ]
+        },
+        {
+          "code": "600941",
+          "name": "中国移动",
+          "gain": 0.020722433460075962,
+          "volume_ratio_5": 0.9592968430798414,
+          "volume_ratio_60": 1.4621103206027972,
+          "amount_cny": 1733117702.0,
+          "close": 107.38,
+          "breakout": true,
+          "strength": 1,
+          "conditions": [
+            false,
+            false,
+            true
+          ]
+        },
+        {
+          "code": "601717",
+          "name": "中创智领",
+          "gain": 0.013149655604257848,
+          "volume_ratio_5": 1.2011712420786906,
+          "volume_ratio_60": 1.3730220391263737,
+          "amount_cny": 410033295.0,
+          "close": 16.18,
+          "breakout": true,
+          "strength": 1,
+          "conditions": [
+            false,
+            false,
+            true
+          ]
+        },
+        {
+          "code": "600566",
+          "name": "济川药业",
+          "gain": 0.012828736369467464,
+          "volume_ratio_5": 1.187855354706782,
+          "volume_ratio_60": 1.4977728490758833,
+          "amount_cny": 327662014.0,
+          "close": 31.58,
+          "breakout": true,
+          "strength": 1,
+          "conditions": [
+            false,
+            false,
+            true
+          ]
+        },
+        {
+          "code": "600177",
+          "name": "雅戈尔",
+          "gain": 0.009195402298850519,
+          "volume_ratio_5": 1.1469386034686184,
+          "volume_ratio_60": 1.2953151388929507,
+          "amount_cny": 311459516.0,
+          "close": 8.78,
+          "breakout": true,
+          "strength": 1,
+          "conditions": [
+            false,
+            false,
+            true
+          ]
+        },
+        {
+          "code": "000895",
+          "name": "双汇发展",
+          "gain": 0.007843137254901933,
+          "volume_ratio_5": 1.0483684979739312,
+          "volume_ratio_60": 1.279599920824466,
+          "amount_cny": 362445884.69,
+          "close": 25.7,
+          "breakout": true,
+          "strength": 1,
+          "conditions": [
+            false,
+            false,
+            true
+          ]
+        },
+        {
+          "code": "600901",
+          "name": "江苏金租",
+          "gain": 0.00512163892445594,
+          "volume_ratio_5": 1.193939605230886,
+          "volume_ratio_60": 1.225301734799547,
+          "amount_cny": 305338265.0,
+          "close": 7.85,
+          "breakout": true,
+          "strength": 1,
+          "conditions": [
+            false,
+            false,
+            true
+          ]
+        },
+        {
+          "code": "000333",
+          "name": "美的集团",
+          "gain": 0.0034286938819243495,
+          "volume_ratio_5": 1.1572810700327198,
+          "volume_ratio_60": 1.2959915678909242,
+          "amount_cny": 3300490848.21,
+          "close": 93.65,
+          "breakout": true,
+          "strength": 1,
+          "conditions": [
+            false,
+            false,
+            true
+          ]
+        }
+      ],
+      "next_open_watchlist": [],
+      "opening_gap_range": [
+        -0.03,
+        0.05
+      ],
+      "max_positions": 3,
+      "exit_sessions_after_entry": 2,
+      "exit_basis": "open"
+    }
+  }
+}
