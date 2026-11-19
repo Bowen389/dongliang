@@ -7,6 +7,7 @@
     "inactive_or_missing_today": 0,
     "missing_history": 9
   },
+  "status": "partial",
   "market_gate": {
     "source": "Sina CSI300 daily",
     "close": 3984.84,
