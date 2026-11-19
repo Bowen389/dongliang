@@ -29,7 +29,8 @@ def candidates(bars, sessions, universe):
     groups = {code: group.set_index('date').reindex(sessions)
               for code, group in bars[bars.code.isin(universe)].groupby('code')}
     results = {'champion': [], 'optimized_a': []}
-    coverage = dict(scanned=0, excluded=0, inactive_or_missing_today=0, missing_history=0)
+    coverage = dict(scanned=0, excluded=0, inactive_or_missing_today=0, missing_history=0,
+                    excluded_inactive_history=0, missing_history_details=[])
     for code in universe:
         frame = groups.get(code)
         if frame is None or pd.isna(frame.iloc[-1]['name']):
@@ -46,7 +47,13 @@ def candidates(bars, sessions, universe):
             coverage['inactive_or_missing_today'] += 1
             continue
         if not valid.all():
-            coverage['missing_history'] += 1
+            known_inactive = frame.volume.eq(0) & frame.name.notna()
+            unknown = ~valid & ~known_inactive
+            if unknown.any():
+                coverage['missing_history'] += 1
+                coverage['missing_history_details'].append(dict(code=code,dates=list(frame.index[unknown])))
+            else:
+                coverage['excluded_inactive_history'] += 1
             continue
         coverage['scanned'] += 1
         ratios = frame.close / frame.prev_close
@@ -113,6 +120,7 @@ def run(day, index):
     lines = [f'# {day} 盘后信号', '',
              f'沪深300 {close:.3f}，MA20 {ma20:.3f}，新开仓门控{"开放" if allow else "关闭"}。',
              f'已完成计算 {coverage["scanned"]} / 969 只。覆盖详情见同日 JSON。', '']
+    lines += [f'按原连续日线条件排除历史无成交 {coverage["excluded_inactive_history"]} 只；历史缺价待核验 {coverage["missing_history"]} 只。', '']
     for name, title in [('champion', '冠军版'), ('optimized_a', '优化 A')]:
         plan = strategies[name]
         lo, hi = plan['opening_gap_range']
