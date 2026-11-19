@@ -104,6 +104,7 @@ def run(day, index):
             exit_basis=exit_basis,
         )
     report = dict(date=day, universe_size=len(universe), coverage=coverage,
+                  status='partial' if coverage['missing_history'] or coverage['inactive_or_missing_today'] else 'complete',
                   market_gate=dict(source='Sina CSI300 daily', close=close, ma20=ma20, allow=allow),
                   strategies=strategies)
     out = Path('reports')
@@ -136,7 +137,9 @@ def main():
     args = parser.parse_args()
     day = args.date or datetime.now(ZoneInfo('Asia/Shanghai')).date().isoformat()
     if args.skip_existing and Path(f'reports/{day}.json').exists():
-        return
+        existing = json.loads(Path(f'reports/{day}.json').read_text())
+        if existing.get('status') == 'complete':
+            return
     import exchange_calendars as calendars
     if not calendars.get_calendar('XSHG').is_session(day):
         print(f'{day} is not a trading session')
