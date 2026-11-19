@@ -38,6 +38,7 @@ jobs:
           key: tdx-${{ github.run_id }}
           restore-keys: tdx-
       - run: pip install -r requirements.txt
+      - run: python -m unittest test_coverage -v
       - name: Scan frozen pool
         env:
           INPUT_DATE: ${{ inputs.date }}
