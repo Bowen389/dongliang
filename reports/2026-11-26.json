@@ -1,0 +1,392 @@
+{
+  "date": "2026-11-26",
+  "universe_size": 969,
+  "coverage": {
+    "scanned": 959,
+    "excluded": 1,
+    "inactive_or_missing_today": 0,
+    "missing_history": 3,
+    "excluded_inactive_history": 6,
+    "missing_history_details": [
+      {
+        "code": "002155",
+        "dates": [
+          "2026-08-26"
+        ]
+      },
+      {
+        "code": "000711",
+        "dates": [
+          "2026-08-28"
+        ]
+      },
+      {
+        "code": "002388",
+        "dates": [
+          "2026-10-08",
+          "2026-10-09",
+          "2026-10-12",
+          "2026-10-13",
+          "2026-10-14",
+          "2026-10-15",
+          "2026-10-16",
+          "2026-10-19",
+          "2026-10-20",
+          "2026-10-21"
+        ]
+      }
+    ]
+  },
+  "status": "partial",
+  "market_gate": {
+    "source": "Sina CSI300 daily",
+    "close": 3900.548,
+    "ma20": 4006.590000000001,
+    "allow": false
+  },
+  "strategies": {
+    "champion": {
+      "technical_candidates": [],
+      "next_open_watchlist": [],
+      "opening_gap_range": [
+        -0.04,
+        0.05
+      ],
+      "max_positions": 5,
+      "exit_sessions_after_entry": 2,
+      "exit_basis": "close"
+    },
+    "optimized_a": {
+      "technical_candidates": [
+        {
+          "code": "000678",
+          "name": "襄阳轴承",
+          "gain": 0.1002004008016033,
+          "volume_ratio_5": 0.8205032209108309,
+          "volume_ratio_60": 1.6631050106929597,
+          "amount_cny": 2467279201.74,
+          "close": 21.96,
+          "breakout": true,
+          "strength": 2,
+          "conditions": [
+            false,
+            true,
+            true
+          ]
+        },
+        {
+          "code": "000158",
+          "name": "常山北明",
+          "gain": 0.09984152139461178,
+          "volume_ratio_5": 0.5710526196098747,
+          "volume_ratio_60": 2.3535044390560804,
+          "amount_cny": 1308900621.73,
+          "close": 13.88,
+          "breakout": true,
+          "strength": 2,
+          "conditions": [
+            false,
+            true,
+            true
+          ]
+        },
+        {
+          "code": "002242",
+          "name": "九阳股份",
+          "gain": 0.0866182572614107,
+          "volume_ratio_5": 1.1565141093123363,
+          "volume_ratio_60": 1.834500651406008,
+          "amount_cny": 5175133433.13,
+          "close": 41.9,
+          "breakout": true,
+          "strength": 2,
+          "conditions": [
+            false,
+            true,
+            true
+          ]
+        },
+        {
+          "code": "600410",
+          "name": "华胜天成",
+          "gain": 0.060267857142856984,
+          "volume_ratio_5": 1.1041594173925766,
+          "volume_ratio_60": 3.5081068542825684,
+          "amount_cny": 6710980014.0,
+          "close": 19.0,
+          "breakout": true,
+          "strength": 2,
+          "conditions": [
+            false,
+            true,
+            true
+          ]
+        },
+        {
+          "code": "600177",
+          "name": "雅戈尔",
+          "gain": 0.015521064301552201,
+          "volume_ratio_5": 1.0075463430417084,
+          "volume_ratio_60": 1.5397230050660486,
+          "amount_cny": 412270624.0,
+          "close": 9.16,
+          "breakout": true,
+          "strength": 2,
+          "conditions": [
+            false,
+            true,
+            true
+          ]
+        },
+        {
+          "code": "600499",
+          "name": "科达制造",
+          "gain": 0.10025929127052713,
+          "volume_ratio_5": 2.0196143494664853,
+          "volume_ratio_60": 1.8283421274809624,
+          "amount_cny": 649226455.0,
+          "close": 12.73,
+          "breakout": false,
+          "strength": 1,
+          "conditions": [
+            true,
+            false,
+            false
+          ]
+        },
+        {
+          "code": "000530",
+          "name": "冰山冷热",
+          "gain": 0.10000000000000009,
+          "volume_ratio_5": 0.7689338253699439,
+          "volume_ratio_60": 1.4224931841926225,
+          "amount_cny": 2730110089.69,
+          "close": 16.17,
+          "breakout": true,
+          "strength": 1,
+          "conditions": [
+            false,
+            false,
+            true
+          ]
+        },
+        {
+          "code": "002246",
+          "name": "北化股份",
+          "gain": 0.09989023051591661,
+          "volume_ratio_5": 2.103802000987891,
+          "volume_ratio_60": 1.7190803080905663,
+          "amount_cny": 749523242.24,
+          "close": 20.04,
+          "breakout": false,
+          "strength": 1,
+          "conditions": [
+            true,
+            false,
+            false
+          ]
+        },
+        {
+          "code": "601086",
+          "name": "国芳集团",
+          "gain": 0.09674418604651147,
+          "volume_ratio_5": 2.7895571742035745,
+          "volume_ratio_60": 1.4583121890481883,
+          "amount_cny": 1092698154.0,
+          "close": 11.79,
+          "breakout": false,
+          "strength": 1,
+          "conditions": [
+            true,
+            false,
+            false
+          ]
+        },
+        {
+          "code": "600397",
+          "name": "江钨装备",
+          "gain": 0.07765151515151514,
+          "volume_ratio_5": 2.0702386448239274,
+          "volume_ratio_60": 1.136355088876392,
+          "amount_cny": 637545938.0,
+          "close": 11.38,
+          "breakout": false,
+          "strength": 1,
+          "conditions": [
+            true,
+            false,
+            false
+          ]
+        },
+        {
+          "code": "002149",
+          "name": "西部材料",
+          "gain": 0.07303592577970797,
+          "volume_ratio_5": 2.2193239115705645,
+          "volume_ratio_60": 2.5640929260763503,
+          "amount_cny": 2157963719.95,
+          "close": 27.18,
+          "breakout": false,
+          "strength": 1,
+          "conditions": [
+            true,
+            false,
+            false
+          ]
+        },
+        {
+          "code": "605598",
+          "name": "上海港湾",
+          "gain": 0.06539966461710445,
+          "volume_ratio_5": 2.5568712750267837,
+          "volume_ratio_60": 3.04267272936769,
+          "amount_cny": 346582725.0,
+          "close": 19.06,
+          "breakout": false,
+          "strength": 1,
+          "conditions": [
+            true,
+            false,
+            false
+          ]
+        },
+        {
+          "code": "002275",
+          "name": "桂林三金",
+          "gain": 0.05137481910274966,
+          "volume_ratio_5": 2.549936561879361,
+          "volume_ratio_60": 4.2567913175021825,
+          "amount_cny": 806936790.26,
+          "close": 14.53,
+          "breakout": false,
+          "strength": 1,
+          "conditions": [
+            true,
+            false,
+            false
+          ]
+        },
+        {
+          "code": "603887",
+          "name": "城地香江",
+          "gain": 0.050707547169811296,
+          "volume_ratio_5": 2.5903598557242686,
+          "volume_ratio_60": 5.538931134415372,
+          "amount_cny": 1175231188.0,
+          "close": 8.91,
+          "breakout": false,
+          "strength": 1,
+          "conditions": [
+            true,
+            false,
+            false
+          ]
+        },
+        {
+          "code": "600498",
+          "name": "烽火通信",
+          "gain": 0.04997882253282504,
+          "volume_ratio_5": 2.06638725440963,
+          "volume_ratio_60": 1.2416942330240255,
+          "amount_cny": 2026256751.0,
+          "close": 24.79,
+          "breakout": false,
+          "strength": 1,
+          "conditions": [
+            true,
+            false,
+            false
+          ]
+        },
+        {
+          "code": "600664",
+          "name": "哈药股份",
+          "gain": 0.03632478632478642,
+          "volume_ratio_5": 2.3765721504687196,
+          "volume_ratio_60": 1.2755456443372821,
+          "amount_cny": 1925778138.0,
+          "close": 4.85,
+          "breakout": false,
+          "strength": 1,
+          "conditions": [
+            true,
+            false,
+            false
+          ]
+        },
+        {
+          "code": "002728",
+          "name": "特一药业",
+          "gain": 0.03473053892215572,
+          "volume_ratio_5": 4.338363493757461,
+          "volume_ratio_60": 3.151413067592324,
+          "amount_cny": 536341568.54,
+          "close": 8.64,
+          "breakout": false,
+          "strength": 1,
+          "conditions": [
+            true,
+            false,
+            false
+          ]
+        },
+        {
+          "code": "600901",
+          "name": "江苏金租",
+          "gain": 0.030026109660574285,
+          "volume_ratio_5": 1.0439874865187821,
+          "volume_ratio_60": 1.3411292186396655,
+          "amount_cny": 336512944.0,
+          "close": 7.89,
+          "breakout": true,
+          "strength": 1,
+          "conditions": [
+            false,
+            false,
+            true
+          ]
+        },
+        {
+          "code": "001270",
+          "name": "铖昌科技",
+          "gain": 0.027773538837173817,
+          "volume_ratio_5": 2.032368133218283,
+          "volume_ratio_60": 1.7353208500480974,
+          "amount_cny": 787170330.99,
+          "close": 67.35,
+          "breakout": false,
+          "strength": 1,
+          "conditions": [
+            true,
+            false,
+            false
+          ]
+        },
+        {
+          "code": "000001",
+          "name": "平安银行",
+          "gain": 0.004032258064516014,
+          "volume_ratio_5": 0.8144959411160863,
+          "volume_ratio_60": 1.2513212850918687,
+          "amount_cny": 1922080595.41,
+          "close": 12.45,
+          "breakout": true,
+          "strength": 1,
+          "conditions": [
+            false,
+            false,
+            true
+          ]
+        }
+      ],
+      "next_open_watchlist": [],
+      "opening_gap_range": [
+        -0.03,
+        0.05
+      ],
+      "max_positions": 3,
+      "exit_sessions_after_entry": 2,
+      "exit_basis": "open"
+    }
+  }
+}
